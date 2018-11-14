@@ -1,7 +1,7 @@
 #!/bin/bash
 suburl='wiki/latest/'
 logfile='log.txt'
-cat locales
+cat locale
 read -p "What locales or languages do you want to use? " locales
 for url in $(cat url);do
 	for locale in $locales; do
